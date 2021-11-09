@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@400;900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f4c66a;
+}
+
+.container{
+    display: flex;
+    width: 78%;
+    height: 80vh;
+    margin: 90px auto;
+    border-radius: 5px;
+}
+/* <Left_box> */
+.card{
+    position: relative;
+    width: 40%;
+    height: 100%;
+    background-color: #f0f0f0;
+    border-radius: 5px 0 0 5px;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    overflow-y: scroll;
+}
+/* <block_My_Wallets> */
+.block{
+    display: flex;
+    position: sticky;
+    margin: 40px;
+    width: 80%;
+    height: 60px;
+    font-size: 1.65rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    align-items: center;
+}
+.block p {
+    font-weight: lighter;
+    width: 220px;
+    color: rgb(51, 51, 51);
+}
+.block img {
+    position: absolute;
+    top: 15px;
+    right: 5%;
+    width: 25px;
+    height: 25px;
+    color: grey;
+}
+/* <Plastik_karta> */
+.pcard{
+    position: relative;
+    width: 78%;
+    height: 150px;
+    background-color: white;
+    margin: 16px 11%;
+    border: 2px solid #dcdcdc;
+    border-radius: 4px;
+}
+.pcard img{
+    width: 80px;
+    height: 50px;
+    margin: 15px;
+}
+.pcard p{
+    position: absolute;
+    top: 85px;
+    left: 20px;
+    font-size: 1.2rem;
+    color: rgb(138, 138, 138);
+    font-weight: lighter;
+}
+.pcard:hover{
+    border: 3px solid #7d85af;
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+}
+
+.bot{
+    margin-bottom: 60px;
+}
+
+/* <Rigt_box> */
+.history{
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    border-radius: 0 5px 5px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    overflow: auto;
+}
+
+/* <box_Current_Balance> */
+.box{
+    display: flex;
+    position: relative;
+    margin: 0px auto;
+    width: 90%;
+    height: 150px;
+    border-bottom: 2px solid #dddddd;
+    align-items: center;
+}
+.box p{
+    font-size: 2rem;
+    color: rgb(71, 71, 71);
+}
+.box h2{
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    font-size: 2rem;
+    color: rgb(51, 51, 51);
+}
+
+/* <Checks> */
+.check{
+    position: relative;
+    width: 100%;
+    height: 116px;
+    font-size: 1rem;
+    color: rgb(51, 51, 51);
+}
+.text{
+    position: absolute;
+    top: 45px;
+    left: 120px;
+}
+.check p{
+    position: absolute;
+    top: 75px;
+    left: 120px;
+    font-size: 1.1rem;
+    color: grey;
+}
+.cash{
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-size: 1.5rem;
+    color: #7f8ebd;
+}
+
+.plus{
+    color: #76d440;
+}
+
+.check div{
+    position: absolute;
+    top: 60px;
+    left: 45px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    text-align: center;
+}
+.check img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 3px;
+    right: 4px;
+    cursor: pointer;
+}
+
+#history{
+    width: 40px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#history img{
+    position: absolute;
+    top: 35vh;
+    /* right: 0; */
+}

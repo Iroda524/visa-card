@@ -1,0 +1,85 @@
+@media only screen and (max-width:520px){
+    .container{
+        margin: 20vw auto;
+    }
+    
+    .card{
+        width: 90%;
+        /* height: 90vh; */
+    }
+}
+
+@media only screen and (max-width:700px){
+    .container{
+        width: 90%;
+    }
+   
+    .card{
+        width: 70%;
+    }
+
+    .history{
+        display: grid;
+        /* grid-template-columns: 3 1; */
+    }
+}
+
+@media only screen and (max-width:850px){
+    .check p{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:400px) and (max-width:1050px){
+    .box h2{
+        position: absolute;
+        top: 100px;
+        left: 20px;
+    }
+
+    .check>text{
+        display: none;
+    }
+    
+    .cash{
+        position: absolute;
+        top: 120px;
+        left: 30px;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .container{
+        margin: 15vh auto;
+    } 
+
+    .card{
+        width: 100%;
+    }
+    
+    .history{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .history{
+        visibility: show;
+        transition: 0.5s all ease;
+    }
+
+    #history:hover{
+        display: none;
+    }
+
+    #history:hover .history{
+        width: 10%;
+        transform: translateX(-50px);
+        background-color: aqua;
+    }
+}
+@media only screen and (min-width:401px){
+    #history{
+        display: none;
+    }
+}
